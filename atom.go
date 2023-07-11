@@ -17,6 +17,8 @@ type Entry struct {
 	ID      string `xml:"id"`
 	Title   string `xml:"title"`
 	Updated string `xml:"updated"`
+	Link    string `xml:"link"`
+	Content string `xml:"content"`
 }
 
 //Atom parses atom feeds
